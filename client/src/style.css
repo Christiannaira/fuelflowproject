@@ -1,0 +1,40 @@
+/*universal section design*/
+
+
+/*main section design*/
+main {}
+
+/*hero section design*/
+
+.hero {
+    position: relative;
+    height: 750px;
+
+}
+
+.hero video {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+.hero-text-content {
+    position: absolute;
+    top: 0;
+
+}
+
+/*cta section design*/
+
+.cta {
+    position: relative;
+    height: 100vh;
+}
+
+/*solution section design*/
+
+.solution {
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}

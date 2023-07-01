@@ -1,11 +1,14 @@
 import { useState } from 'react'
+import Index from './pages/Index';
 
 function App() {
 
 
   return (
     <>
-      hello world
+
+      <Index />
+
     </>
   )
 }
