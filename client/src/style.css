@@ -201,7 +201,7 @@ body {
     background-position: center;
     background-size: cover;
     padding: 6rem 3rem;
-    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 70%);
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 7 0%);
 
 
 
