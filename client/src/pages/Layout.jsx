@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import Navigation from './Navigation';
 
 function Layout() {
 
@@ -7,7 +8,7 @@ function Layout() {
             {/* header section layout */}
             <header>
 
-
+                <Navigation />
 
             </header>
 

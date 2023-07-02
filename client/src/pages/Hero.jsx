@@ -17,6 +17,7 @@ function Hero() {
                     <div className="hero-text-content">
                         <h1>save time, <br /> every time <br /> you refuel</h1>
                         <a href="#" className="btn btn-dark">order fuel</a>
+
                     </div>
 
                     {/*overlay dark colosr*/}

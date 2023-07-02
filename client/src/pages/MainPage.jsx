@@ -1,6 +1,7 @@
-import Navigation from './Navigation';
+
 import Hero from './Hero';
 import Cta from './Cta';
+import Poster from './Poster';
 import Solution from './Solution';
 import Review from './Review';
 import Benefits from './Benefits';
@@ -14,11 +15,12 @@ function MainPage() {
 
     return (
         <>
-            <Navigation />
+
             <Hero />
             <Cta />
+            {/* <Poster /> */}
             <Solution />
-
+            <Review />
         </>
     )
 

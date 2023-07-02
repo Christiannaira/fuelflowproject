@@ -3,7 +3,7 @@ function Pricing() {
     return (
         <>
 
-
+            hello pricing
 
         </>
     )

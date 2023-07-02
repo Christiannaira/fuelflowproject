@@ -10,6 +10,9 @@ import Partners from './Partners';
 import Faqs from './Faqs';
 import Links from './Links';
 import About from './pages/About';
+import Accounts from './pages/Accounts';
+import Pricing from './pages/Pricing';
+import Stations from './pages/Stations';
 
 
 function Index() {
@@ -25,6 +28,9 @@ function Index() {
 
                         <Route index element={<MainPage />} />
                         <Route path='/about' element={<About />} />
+                        <Route path='/stations' element={<Stations />} />
+                        <Route path='/pricing' element={<Pricing />} />
+                        <Route path='/account' element={<Accounts />} />
 
                     </Route>
 
