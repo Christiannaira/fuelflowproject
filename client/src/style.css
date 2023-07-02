@@ -6,6 +6,16 @@
     font-family: 'JetBrains Mono', monospace;
 }
 
+/*body section design*/
+
+body {
+    background-color: #f7f7f7;
+    background-image: url('./assets/background.jpg');
+    background-position: center;
+    background-size: 10%;
+
+}
+
 /*main section design*/
 
 
@@ -108,11 +118,11 @@
 
 .cta {
     position: relative;
-    background-color: #fff;
+
 }
 
 .cta-content {
-    padding: 3rem;
+    padding: 5rem;
 }
 
 .cta-content-main {
@@ -179,40 +189,76 @@
 
 .solution {
     position: relative;
-    background-color: #f7f7f7;
+    /* background: linear-gradient(to top, rgba(100, 204, 197, .5), rgba(100, 204, 197, .9)); */
+    height: 100vh;
 }
 
-.solution-content {
-    padding: 3rem;
-}
+.solution-content {}
 
 .solution-content-main {
-    max-width: 1200px;
-    margin: auto;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/solution_picture.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 6rem 3rem;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 70%);
+
+
+
 }
 
 .solution-content-main h1 {
     font-size: 2rem;
     font-weight: 800;
-    color: #001C30;
+    color: #fff;
 }
 
 .solution .solutions-content-boxes {
     display: flex;
-
+    margin-top: 4rem;
 }
 
 .solution .solutions-content-boxes .rows {
     width: 25%;
-
     margin: 0 10px;
     padding: 1rem;
+    background-color: #fff;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .4);
+    border-radius: 8px;
+    transition: .4s ease;
+}
+
+.solution .solutions-content-boxes .rows:hover {
+    transform: translateY(-8px);
+}
+
+.solutions-content-boxes .row-icon i {
+    font-size: 4rem;
+    color: #001C30;
+}
+
+.solutions-content-boxes .row-icon {
+    text-align: center;
+    padding: 1rem;
 }
 
 .solution .solutions-content-boxes .rows h3 {
     font-size: 1.5rem;
+    text-align: center;
 }
+
+.solution-content .btn {
+    margin-top: 2rem;
+    background-color: #176B87;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 2rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+
+
 
 /*about section design*/
 
