@@ -1,6 +1,6 @@
+import Navigation from './Navigation';
 import Hero from './Hero';
 import Cta from './Cta';
-import Navigation from './Navigation';
 import Solution from './Solution';
 import Review from './Review';
 import Benefits from './Benefits';
@@ -14,7 +14,7 @@ function MainPage() {
 
     return (
         <>
-
+            <Navigation />
             <Hero />
             <Cta />
             <Solution />

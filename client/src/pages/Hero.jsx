@@ -15,7 +15,13 @@ function Hero() {
 
                     {/*hero text content section layout*/}
                     <div className="hero-text-content">
-                        <h1>home</h1>
+                        <h1>save time, <br /> every time <br /> you refuel</h1>
+                        <a href="#" className="btn btn-dark">order fuel</a>
+                    </div>
+
+                    {/*overlay dark colosr*/}
+                    <div className="overlay">
+
                     </div>
 
                 </div>
