@@ -127,10 +127,37 @@ main {}
     font-size: 1rem;
 }
 
+.cta-content-main .btn {
+
+    background-color: #176B87;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 2rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+
+.cta-content-main .btn:hover {
+    background-color: #001C30;
+}
+
 /*solution section design*/
 
 .solution {
     position: relative;
     height: 100vh;
-    background-color: black;
+
+}
+
+.solution .solutions-content-boxes {
+    display: flex;
+
+}
+
+.solution .solutions-content-boxes .rows {
+    width: 25%;
+    height: 200px;
+    border: 2px solid red;
+    margin: 0 2px
 }

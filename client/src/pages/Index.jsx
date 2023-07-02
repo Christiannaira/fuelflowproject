@@ -9,6 +9,7 @@ import Services from './Services';
 import Partners from './Partners';
 import Faqs from './Faqs';
 import Links from './Links';
+import About from './pages/About';
 
 
 function Index() {
@@ -23,14 +24,14 @@ function Index() {
                     <Route path='/' element={<Layout />}>
 
                         <Route index element={<MainPage />} />
-
+                        <Route path='/about' element={<About />} />
 
                     </Route>
 
 
                 </Routes>
 
-            </BrowserRouter>
+            </BrowserRouter >
 
         </>
     )
