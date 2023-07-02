@@ -17,7 +17,9 @@ function Solutions() {
                             your fuel <br /> ordering procedures?</h1>
                     </div>
 
-                    <div className="solutions-content-boxes ">
+
+
+                    <div className="solutions-content-boxes d-flex ">
 
                         <div className="rows">
 
@@ -87,7 +89,7 @@ function Solutions() {
 
                     </div>
 
-                    <a href="#" className="btn btn-dark">asddsa</a>
+                    {/* <a href="#" className="btn btn-dark">asddsa</a> */}
                 </div>
 
             </section >

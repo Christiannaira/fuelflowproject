@@ -7,7 +7,9 @@ function Review() {
                 <div className="review-content container-fluid">
 
                     <div className="review-content-main">
-                        as
+
+                        asdasd
+
                     </div>
 
                 </div>
