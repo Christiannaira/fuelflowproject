@@ -3,9 +3,9 @@ function Links() {
     return (
         <>
 
-            <section className="benefits" id="benefits">
-                <div className="benefits-content">
-                    <h1>    this is is a benefits section</h1>
+            <section className="links" id="links">
+                <div className="links-content">
+                    <h1>    this is is a links section</h1>
                 </div>
             </section>
 

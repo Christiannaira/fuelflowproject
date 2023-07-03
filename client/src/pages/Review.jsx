@@ -18,7 +18,7 @@ function Review() {
             <section className="review" id="review">
                 <div className="review-content ">
 
-                    <div className="review-content-main">
+                    <div className="review-content-main text-center">
                         <h1>Testimonials</h1>
                     </div>
 

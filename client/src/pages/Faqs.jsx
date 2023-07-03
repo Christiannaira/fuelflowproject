@@ -3,9 +3,9 @@ function Faqs() {
     return (
         <>
 
-            <section className="benefits" id="benefits">
-                <div className="benefits-content">
-                    <h1>    this is is a benefits section</h1>
+            <section className="faqs" id="faqs">
+                <div className="faqs-content">
+                    <h1>    this is is a faqs section</h1>
                 </div>
             </section>
 

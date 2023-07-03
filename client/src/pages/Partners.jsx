@@ -3,9 +3,9 @@ function Partners() {
     return (
         <>
 
-            <section className="benefits" id="benefits">
-                <div className="benefits-content">
-                    <h1>    this is is a benefits section</h1>
+            <section className="services" id="services">
+                <div className="services-content">
+                    <h1>    this is is a partners section</h1>
                 </div>
             </section>
 
