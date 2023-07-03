@@ -15,7 +15,7 @@ function Hero() {
 
                     {/*hero text content section layout*/}
                     <div className="hero-text-content">
-                        <h1>save time, <br /> every time <br /> you refuel</h1>
+                        <h1><span>save time</span>, <br /> every time <br /> you refuel</h1>
                         <a href="#" className="btn btn-dark">order fuel</a>
 
                     </div>
