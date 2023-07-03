@@ -385,6 +385,13 @@ body {
     color: yellow;
 }
 
+.benefits-content-main p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .benefits-text-contents {
     margin-top: 3rem;
 }
@@ -459,6 +466,66 @@ body {
 .benefits-btn .btn:hover {
     background-color: #001C30;
     color: yellow;
+}
+
+/*services section design*/
+
+
+
+.services-content-main {
+    padding: 2rem;
+}
+
+.services-content-main h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #001C30;
+    text-align: center;
+}
+
+.services-row-contents {
+    background-color: yellow;
+}
+
+.services-row-contents .tabcontent {
+    display: none;
+}
+
+.services-row-contents {
+    padding: 3rem;
+}
+
+.services-row-contents .tab {
+    margin-bottom: 2rem;
+    border-left: 2px solid #001C30;
+    border-right: 2px solid #001C30;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.services-row-contents .tablinks {
+    color: #222;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.services-row-contents .tablinks.active {
+    border-bottom: 1px solid #222;
+
+}
+
+.services-row-contents .tabcontent img {
+    filter: grayscale(1);
+    clip-path: polygon(0 11%, 80% 0%, 100% 100%, 9% 94%);
+}
+
+.services-row-contents #defaultOpen {
+    color: #001C30;
+    font-weight: 800;
 }
 
 /* poster section design

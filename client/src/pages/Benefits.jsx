@@ -8,6 +8,9 @@ function Benefits() {
                     <div className="benefits-content-main text-center">
 
                         <h1>Benefits</h1>
+
+                        <p>We aim to build a highly efficient fuel delivery service that could benefit our customers and the environment around us, making our contribution to have a better world.</p>
+
                     </div>
 
                     <div className="benefits-text-contents container">

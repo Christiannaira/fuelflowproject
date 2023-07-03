@@ -22,9 +22,6 @@ function Review() {
                         <h1>Testimonials</h1>
                     </div>
 
-                    <div className="review-client-contents">
-
-                    </div>
                     <Swiper
                         pagination={{
                             dynamicBullets: true,

@@ -3,8 +3,8 @@ function Partners() {
     return (
         <>
 
-            <section className="services" id="services">
-                <div className="services-content">
+            <section className="partners" id="partners">
+                <div className="partners-content">
                     <h1>    this is is a partners section</h1>
                 </div>
             </section>
