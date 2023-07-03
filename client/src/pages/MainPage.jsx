@@ -21,6 +21,12 @@ function MainPage() {
             {/* <Poster /> */}
             <Solution />
             <Review />
+            <Benefits />
+            <Services />
+            <Partners />
+            <Faqs />
+            {/* <Poster /> */}
+            <Links />
         </>
     )
 
