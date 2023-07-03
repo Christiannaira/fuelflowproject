@@ -6,6 +6,15 @@
     font-family: 'JetBrains Mono', monospace;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #001C30;
+    border-radius: 10px;
+}
+
 /*body section design*/
 
 body {

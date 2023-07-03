@@ -93,11 +93,11 @@ function Login() {
                   Login
                 </button>
 
-                {token && (
+                {/* {token && (
                   <button onClick={handleLogout} className="btn btn-dark mt-3">
                     Logout
                   </button>
-                )}
+                )} */}
 
 
                 <Link to="/register" className="ms-3 ">

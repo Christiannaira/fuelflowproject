@@ -14,6 +14,8 @@ import Chatbot from './Chatbot';
 
 function MainPage() {
 
+
+
     return (
         <>
 
@@ -28,7 +30,7 @@ function MainPage() {
             <Poster />
             <Links />
             <Chatbot />
-            
+
         </>
     )
 
