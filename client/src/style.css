@@ -63,6 +63,10 @@ body {
     width: 100%;
 }
 
+.navigation .nav-item .nav-link.active {
+    width: 100%;
+}
+
 .navigational-icons a {
     display: inline;
     margin: 0 7px;
@@ -849,7 +853,7 @@ body {
 /* about section design */
 
 .about {
-    background-color: #222;
+    background-color: #001C30;
     position: relative;
 }
 
@@ -871,7 +875,27 @@ body {
 
 .about-content-text {
     background-color: #fff;
-    height: 20vh;
+}
+
+.about-content-text {
+    padding: 5rem;
+    text-align: center;
+
+}
+
+.about-content-text p {
+    font-size: 1.2rem;
+    font-family: 'Open sans', sans-serif;
+    padding: 1rem;
+}
+
+.about-content-text h3 {
+    background-color: #001C30;
+    color: #fff;
+    padding: 1rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+    border-radius: 30px;
 }
 
 
