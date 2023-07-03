@@ -38,7 +38,7 @@ function UserAccount() {
     return (
         <>
 
-            <section className="useraccount" id="useraccount">
+            {/* <section className="useraccount" id="useraccount">
 
                 <div className="useraccount-content">
 
@@ -99,6 +99,77 @@ function UserAccount() {
                                 </button>
                             </div>
 
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section> */}
+
+            <section className="useraccount" id="useraccount">
+
+                <div className="useraccount-content container-fluid ">
+
+                    <div className="row ">
+
+                        <div className="col-md-2">
+
+                            <div className="row-content border">
+                                <h3>blogs</h3>
+
+                                <div className="row-content-info">
+                                    <span>no blog</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div className="col-md-6  border">
+
+                            <div className="user-profile">
+                                <img src={UserProfile} alt="" width={'100px'} />
+
+                                <div className="user-text">
+
+                                    <h1>{(user === null) ? "" : user.name}</h1>
+
+                                    <div className="user-des d-flex justify-content-between align-items-center">
+
+                                        <div>
+                                            <span className="bio">your bio</span>
+
+                                            <span className="address">
+                                                <i class='bx bxs-edit-location' ></i> address
+                                            </span>
+                                        </div>
+
+                                        <button className="btn btn-dark" onClick={handleLogout} >Logout</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div className="col-md-4 ">
+                            <div className="row-content border">
+                                <h3>About</h3>
+
+                                <div className=" row-content-info">
+                                    <span>no address</span>
+                                    <span>no mobile number</span>
+                                    <span>no biography</span>
+                                    <span>no links</span>
+
+
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>
