@@ -3,7 +3,9 @@ function Stations() {
     return (
         <>
 
-            hello station
+            <section className="station">
+                <p>asdasd</p>
+            </section>
 
         </>
     )

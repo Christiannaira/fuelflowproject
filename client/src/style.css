@@ -616,8 +616,83 @@ body {
 /*faqs section design*/
 
 .faqs {
-    height: 100vh;
     background-color: #fff;
+}
+
+.faqs-content {
+    padding: 2rem;
+}
+
+.faqs-content-main {
+    padding: 2rem;
+}
+
+.faqs-content-main h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #001C30;
+    text-align: center;
+}
+
+.faqs-accordion {
+    padding: 1rem;
+}
+
+.faqs-accordion .card {
+    border-radius: 0;
+    border: none;
+    margin: 5px 0;
+
+}
+
+.faqs-accordion .card .card-header {
+    background-color: white !important;
+}
+
+.faqs-accordion .card .card-header a {
+    font-weight: 700;
+    color: #001C30;
+}
+
+.faqs-accordion .card-body ul {
+    background-color: #001C30;
+    padding: 2rem 3rem;
+    margin: 1rem 0;
+}
+
+.faqs-accordion .card-body li {
+    color: #fff;
+}
+
+.faqs-accordion .card-body li,
+.faqs-accordion .card-body span {
+
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.faqs-accordion .card-body span {
+    font-weight: 600;
+}
+
+.faqs-accordion .card-body p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #001C30;
+    padding: 2rem 3rem;
+    color: #fff;
+}
+
+
+
+
+/*links section design*/
+
+.links {
+    background-color: #001C30;
+    height: 50vh;
 }
 
 
@@ -670,4 +745,11 @@ body {
     padding: 2rem;
     border: 1px solid red;
     width: 25%;
+} */
+/* 
+.station {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } */
