@@ -112,6 +112,10 @@ body {
     color: yellow;
 }
 
+.hero-text-content p {
+    color: yellow;
+}
+
 .hero-text-content .btn {
     background-color: #176B87;
     color: #fff;

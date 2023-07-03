@@ -13,6 +13,9 @@ import About from './pages/About';
 import Accounts from './pages/Accounts';
 import Pricing from './pages/Pricing';
 import Stations from './pages/Stations';
+import NoPage from './NoPage';
+import Register from './Register';
+import UserAccount from './UserAccount';
 
 
 function Index() {
@@ -31,7 +34,9 @@ function Index() {
                         <Route path='/stations' element={<Stations />} />
                         <Route path='/pricing' element={<Pricing />} />
                         <Route path='/account' element={<Accounts />} />
-
+                        <Route path='/register' element={<Register/>} />
+                        <Route path='/useraccount' element={<UserAccount/>} />
+                        <Route path="*" element={<NoPage />} />
                     </Route>
 
 
