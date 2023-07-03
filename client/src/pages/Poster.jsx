@@ -9,19 +9,15 @@ function Poster() {
 
                 <div className="poster-content ">
 
-                    {/*hero video section layout*/}
                     <div className="poster-video">
                         <video src={PosterVideo} autoPlay loop muted></video>
                     </div>
 
-
-                    {/*hero text content section layout*/}
-                    <div className="poster-text-content w-100 text-center">
-                        <h1>Fuel Ordering <br /> Simplified</h1>
-
+                    <div className="poster-text">
+                        <h1>Make Your Life Easier</h1>
                     </div>
 
-                    {/*overlay dark colosr*/}
+                    {/*overlay dark color*/}
                     <div className="overlay">
 
                     </div>

@@ -18,14 +18,13 @@ function MainPage() {
 
             <Hero />
             <Cta />
-            {/* <Poster /> */}
             <Solution />
             <Review />
             <Benefits />
             <Services />
             <Partners />
             <Faqs />
-            {/* <Poster /> */}
+            <Poster />
             <Links />
         </>
     )
