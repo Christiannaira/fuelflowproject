@@ -21,19 +21,6 @@ body {
 
 /*navigation section design*/
 
-.header-cta {
-    background-color: yellow;
-    text-align: center;
-    padding: 10px;
-}
-
-.header-cta a {
-    color: red;
-    font-weight: 700;
-
-}
-
-
 .navigation {
     position: absolute;
     /* padding: 1.5rem 2rem; */
@@ -686,17 +673,6 @@ body {
     color: #fff;
 }
 
-
-
-
-/*links section design*/
-
-.links {
-    background-color: #001C30;
-    height: 50vh;
-}
-
-
 /*poster section design*/
 
 .poster {
@@ -744,11 +720,127 @@ body {
 
 .poster-text h1 {
     font-size: 3rem;
-    color: yellow;
+    color: #fff;
     font-weight: 800;
 }
 
+/*links section design*/
 
+.links {
+    background-color: #001C30;
+
+}
+
+.links-col {
+    padding: 2rem;
+}
+
+.links-content-main h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.links-content-main h1 span {
+    color: yellow;
+}
+
+.links-content-main p {
+    margin-top: 1rem;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.links-col h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.col-links {
+    margin-top: 1rem;
+}
+
+.col-links a {
+    color: #ddd;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.col-links a:hover {
+    color: #fff;
+}
+
+.newsletter h3 {
+    font-size: 1.2rem;
+    color: yellow;
+    font-weight: 700;
+    line-height: .7;
+}
+
+.newsletter span {
+    color: #ddd;
+    font-size: 15px;
+}
+
+.newsletter form {
+    margin-top: 1rem;
+}
+
+.newsletter input {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    caret-color: yellow;
+    color: #fff;
+}
+
+.newsletter input:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+
+
+.newsletter .btn {
+    background-color: yellow;
+    color: #001C30;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    padding: 10px 2rem;
+    border-radius: 50px;
+}
+
+.newsletter .btn:hover {
+    background-color: #fff;
+    color: #001C30;
+}
+
+.links .endline {
+    max-width: 1000px;
+    margin: auto;
+    height: 1px;
+    background-color: #fff;
+}
+
+.links .endtext {
+    padding: 1rem;
+    text-align: center;
+}
+
+.links .endtext span {
+    color: #aaa;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 
 
 /* about section design
