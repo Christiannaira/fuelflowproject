@@ -977,21 +977,91 @@ body {
     color: #555;
 }
 
-/* 
-.about-video {}
+/*accounts section design*/
 
-.about-video video {
-    width: 100%;
-    display: block;
-    height: 720px;
-    object-fit: cover;
-} */
-
-
-/* 
-.station {
+.account {
     height: 100vh;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+}
+
+.account-content-main h1 {
+    font-weight: 800;
+}
+
+.account-content-main h1 img {
+    display: inline-block;
+
+}
+
+.account-form {
+    margin-top: 3rem !important;
+    border: 1px solid #444;
+    padding: 4rem;
+    border-radius: 13px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffff;
+}
+
+.account-form h1 {
+    font-size: 3rem;
+    color: #001C30;
+    font-weight: 800;
+    text-align: center;
+}
+
+.account-form form {
+    margin-top:
+        1.5rem;
+}
+
+.account-form form input {
+
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #444;
+    border-radius: 0;
+    padding: 1rem;
+    background-color: inherit;
+
+}
+
+.account-form form input::placeholder {
+    color: #222;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.account-form form input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #001C30;
+    box-shadow: none;
+    background-color: inherit;
+}
+
+.account-form-btn {
+    margin-top: 1rem;
+}
+
+.account-form button {
+    padding: 14px 2rem;
+    border-radius: 50px;
+}
+
+.account-form a {
+    color: rgb(59, 155, 250);
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*navigational profile*/
+
+.profile {
+    border: 1px solid red;
+}

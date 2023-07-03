@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import HandWave from '../assets/wave.png';
 import Links from "./Links";
-import Poster from "./Poster";
 
 function Login() {
 
@@ -10,12 +10,12 @@ function Login() {
   const token = localStorage.getItem("token");
 
   // useEffect(() => {
-    // if (localStorage.getItem("token") !== null) {
-      // window.location.href = "/";
-    // }
+  // if (localStorage.getItem("token") !== null) {
+  // window.location.href = "/";
+  // }
   // }, []);
 
-  
+
 
 
 
@@ -54,47 +54,70 @@ function Login() {
 
   return (
     <>
-    
-    <div className="container mb-5">
-      <h1 className="fw-bold">Login</h1>
-      <form onSubmit={handleLogin}>
-        <p className="fw-bold mt-5">Email</p>
-        <input
-          type="email"
-          className="form-control"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-        <p className="fw-bold mt-3">Password</p>
-        <input
-          type="password"
-          className="form-control"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
+
+      <section className="account" id="account">
+
+        <div className="account-content container mb-5 ">
+
+          <div className="account-content-main text-center">
+            <h1> <img src={HandWave} alt="" width={'60px'} /> Hello There!</h1>
+          </div>
+
+          <div className="account-form">
+
+            <h1>Login</h1>
+
+            <form onSubmit={handleLogin}>
+
+              <input
+                type="email"
+                className="form-control"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Enter your email"
+                required
+              />
+              <br />
+              <input
+                type="password"
+                className="form-control"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Enter your password"
+                required
+              />
+
+              <div className="account-form-btn">
+
+                <button type="submit" className="btn btn-dark mt-3">
+                  Login
+                </button>
+
+                {token && (
+                  <button onClick={handleLogout} className="btn btn-dark mt-3">
+                    Logout
+                  </button>
+                )}
 
 
-        <button type="submit" className="btn btn-dark mt-3">
-          Login
-        </button>
+                <Link to="/register" className="ms-3 ">
+                  Create an account
+                </Link>
 
-        {token && (
-              <button onClick={handleLogout} className="btn btn-dark mt-3">
-                Logout
-              </button>
-            )}
+              </div>
 
-        
-        <Link to="/register" className="ms-3 align-middle">
-          Create an account
-        </Link>
-      </form>
-    </div>
-  
-  
-    </>   
+            </form>
+
+          </div>
+
+        </div>
+
+      </section>
+      <Links />
+
+
+
+    </>
   );
 }
 

@@ -11,9 +11,9 @@ function Register() {
   const [isLoading, setIsLoading] = useState(false);
 
   // useEffect(()=>{
-        // if (localStorage.getItem("token") !== null) {
-            // window.location.href="/home";
-        // }
+  // if (localStorage.getItem("token") !== null) {
+  // window.location.href="/home";
+  // }
   // }, []);
 
   const handleRegister = async (e) => {
@@ -34,9 +34,9 @@ function Register() {
         }),
       });
 
-      if(response.ok){
+      if (response.ok) {
         alert("Successfully registered")
-        window.location.href="/";
+        window.location.href = "/";
       }
     } else {
       alert("Passwords do not match!");
@@ -46,42 +46,42 @@ function Register() {
   return (
 
     <>
-        <div className="container mb-5">
-    <h1 className="fw-bold">Register</h1>
-    <form onSubmit={handleRegister}>
-      <p className="fw-bold mt-5">Name</p>
-      <input
-        type="text"
-        className="form-control"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-        required
-      />
-      <p className="fw-bold mt-5">Email</p>
-      <input
-        type="email"
-        className="form-control"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        required
-      />
-      <p className="fw-bold mt-3">Password</p>
-      <input
-        type="password"
-        className="form-control"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        required
-      />
-      <p className="fw-bold mt-3">Confirm Password</p>
-      <input
-        type="password"
-        className="form-control"
-        value={confirmpassword}
-        onChange={(e) => setConfirmpassword(e.target.value)}
-        required
-      />
-      {isLoading ? (
+      <div className="container mb-5">
+        <h1 className="fw-bold">Register</h1>
+        <form onSubmit={handleRegister}>
+          <p className="fw-bold mt-5">Name</p>
+          <input
+            type="text"
+            className="form-control"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+          <p className="fw-bold mt-5">Email</p>
+          <input
+            type="email"
+            className="form-control"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <p className="fw-bold mt-3">Password</p>
+          <input
+            type="password"
+            className="form-control"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+          <p className="fw-bold mt-3">Confirm Password</p>
+          <input
+            type="password"
+            className="form-control"
+            value={confirmpassword}
+            onChange={(e) => setConfirmpassword(e.target.value)}
+            required
+          />
+          {/* {isLoading ? (
         <button type="submit" disabled className="btn btn-dark mt-3">
           Registering...
         </button>
@@ -89,16 +89,23 @@ function Register() {
         <button type="submit" className="btn btn-dark mt-3">
           Create account
         </button>
-      )}
+      )} */}
 
-      <Link to="/account" className="ms-3 align-middle">
-        I have an account.
-      </Link>
-    </form>
-  </div>
+          <div className="account-form-btn">
+            <button type="submit" className="btn btn-dark mt-3">
+              Create account
+            </button>
 
- 
- 
+            <Link to="/account" className="ms-3 align-middle">
+              I have an account.
+            </Link>
+          </div>
+
+        </form>
+      </div>
+
+
+
 
     </>
 

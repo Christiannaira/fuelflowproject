@@ -4,10 +4,48 @@ import Instagram from '../assets/instagram.png'
 import Twitter from '../assets/twitter.png'
 import Youtube from '../assets/youtube.png'
 import { useLocation } from "react-router-dom";
+import ProfilePic from '../assets/profile.png';
+import { useEffect } from 'react'
 
 function Navigation() {
 
     const location = useLocation();
+    const token = localStorage.getItem("token");
+
+    const handleLogout = () => {
+        localStorage.removeItem("token");
+        localStorage.removeItem("user_id");
+        alert("Log out success!");
+        window.location.href = "/";
+    };
+
+    useEffect(() => {
+
+        const icons = document.querySelector(".navigational-icons");
+        const items = icons.getElementsByClassName('icon');
+
+        if (token) {
+
+            for (let i = 0; i < items.length; i++) {
+
+                items[i].style.display = 'none'
+
+            }
+
+        } else {
+
+
+            for (let i = 0; i < items.length; i++) {
+
+                items[i].style.display = 'inline-block'
+
+            }
+
+        }
+
+    }, [token])
+
+
 
     return (
         <>
@@ -33,18 +71,29 @@ function Navigation() {
                         </li>
                     </ul>
                     <div className="navigational-icons">
-                        <a href="#">
+                        <a href="#" className='icon'>
                             <img src={Facebook} alt="" width={'15px'} />
                         </a>
-                        <a href="#">
+                        <a href="#" className='icon'>
                             <img src={Instagram} alt="" width={'15px'} />
                         </a>
-                        <a href="#">
+                        <a href="#" className='icon'>
                             <img src={Twitter} alt="" width={'15px'} />
                         </a>
-                        <a href="#">
+                        <a href="#" className='icon'>
                             <img src={Youtube} alt="" width={'15px'} />
                         </a>
+
+
+                        {token && (
+
+                            <Link to='/useraccount' className='profile'>
+                                <img src={ProfilePic} alt="" width={'35px'} style={{ display: 'inline-block' }} />
+                            </Link>
+                        )}
+
+
+
 
                     </div>
 
