@@ -56,7 +56,7 @@ function Register() {
 
           </div>
 
-          <div className="register-form container mb-5">
+          <div className="register-form mb-5">
             <h1 className="fw-bold">Register</h1>
             <form onSubmit={handleRegister}>
 

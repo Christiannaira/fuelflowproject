@@ -1143,6 +1143,16 @@ body {
     display: inline-block;
 }
 
+/*useraccount section design*/
+
+.useraccount {
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 /*navigational profile*/
