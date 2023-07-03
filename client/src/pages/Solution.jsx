@@ -23,7 +23,7 @@ function Solutions() {
                         <div className="row">
                             <div className="col-md-3 ">
 
-                                <div className="col-contents">
+                                <div className="col-contents focus">
 
 
                                     <div className="col-icons">

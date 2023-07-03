@@ -209,6 +209,10 @@ body {
     background-color: #001C30;
 }
 
+.solution-content-boxes .col-md-3 .col-contents.focus {
+    transform: translateY(-10px);
+}
+
 .solution-content-boxes .col-md-3 .col-contents:hover {
     transform: translateY(-10px);
 }
