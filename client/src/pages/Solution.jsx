@@ -17,9 +17,7 @@ function Solutions() {
 
                     {/*boxes*/}
 
-                    <div className="solution-content-boxes container"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="bottom-center">
+                    <div className="solution-content-boxes container" data-aos="fade-up">
 
                         <div className="row">
                             <div className="col-md-3 ">

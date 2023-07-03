@@ -13,7 +13,7 @@ import ClientFour from '../assets/client4.jpg';
 function Review() {
 
     return (
-        <>
+        <div data-aos="fade-left">
 
             <section className="review" id="review">
                 <div className="review-content ">
@@ -150,7 +150,7 @@ function Review() {
                 </div>
             </section>
 
-        </>
+        </div>
     )
 
 }

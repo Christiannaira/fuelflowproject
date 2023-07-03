@@ -1,7 +1,7 @@
 function Benefits() {
 
     return (
-        <>
+        <div data-aos="fade-right">
 
             <section className="benefits" id="benefits">
                 <div className="benefits-content container-fluid">
@@ -32,13 +32,13 @@ function Benefits() {
                         </div>
 
 
-                        <div className="row ">
+                        <div className="row">
                             <div className="benefits-icons col-md-12">
 
 
 
 
-                                <div className="benefits-icons-content container">
+                                <div className="benefits-icons-content container" data-aos="flip-up">
 
                                     <div className="row">
 
@@ -113,7 +113,7 @@ function Benefits() {
                 </div>
             </section>
 
-        </>
+        </div>
     )
 
 }

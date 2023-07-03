@@ -3,7 +3,7 @@ import PosterVideo from '../assets/poster_video.mp4'
 function Poster() {
 
     return (
-        <>
+        <div data-aos="zoom-in">
 
             <section className="poster" id="poster">
 
@@ -26,7 +26,7 @@ function Poster() {
 
             </section>
 
-        </>
+        </div>
     )
 
 }

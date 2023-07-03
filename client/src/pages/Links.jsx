@@ -1,7 +1,7 @@
 function Links() {
 
     return (
-        <>
+        <div data-aos="zoom-out">
 
             <section className="links" id="links">
                 <div className="links-content">
@@ -91,7 +91,7 @@ function Links() {
 
             </section>
 
-        </>
+        </div>
     )
 
 }

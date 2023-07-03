@@ -43,7 +43,7 @@ function Services() {
 
 
     return (
-        <>
+        <div data-aos="fade-left">
 
             <section className="services" id="services">
                 <div className="services-content">
@@ -422,7 +422,7 @@ function Services() {
                 </div>
             </section>
 
-        </>
+        </div>
     )
 
 }
