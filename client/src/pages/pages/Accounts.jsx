@@ -1,10 +1,12 @@
+import Login from "../Login";
+
+
 function Accounts() {
 
     return (
         <>
-
-            hello account
-
+           <Login/>
+      
         </>
     )
 
