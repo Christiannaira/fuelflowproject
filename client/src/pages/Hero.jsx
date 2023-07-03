@@ -33,7 +33,7 @@ function Hero() {
 
 
     return (
-        <>
+        <div data-aos="fade-right">
 
             <section className="hero" id="hero">
                 <div className="hero-content">
@@ -64,7 +64,7 @@ function Hero() {
                 </div>
             </section>
 
-        </>
+        </div>
     )
 
 }

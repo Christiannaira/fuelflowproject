@@ -3,7 +3,7 @@
 function Solutions() {
 
     return (
-        <>
+        <div data-aos="fade-right">
 
             <section className="solution" id="solution">
 
@@ -17,7 +17,9 @@ function Solutions() {
 
                     {/*boxes*/}
 
-                    <div className="solution-content-boxes container">
+                    <div className="solution-content-boxes container"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-center">
 
                         <div className="row">
                             <div className="col-md-3 ">
@@ -97,7 +99,7 @@ function Solutions() {
 
             </section>
 
-        </>
+        </div>
     )
 
 }
