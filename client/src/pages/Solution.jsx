@@ -1,4 +1,3 @@
-import SolutionPic from '../assets/solution_picture.jpg';
 
 
 function Solutions() {
