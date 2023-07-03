@@ -9,6 +9,7 @@ import Services from './Services';
 import Partners from './Partners';
 import Faqs from './Faqs';
 import Links from './Links';
+import Chatbot from './Chatbot';
 
 
 function MainPage() {
@@ -26,6 +27,8 @@ function MainPage() {
             <Faqs />
             <Poster />
             <Links />
+            <Chatbot />
+            
         </>
     )
 
