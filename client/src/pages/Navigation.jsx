@@ -10,7 +10,12 @@ function Navigation() {
         <>
 
             <section className="navigation" id="navigation">
-                <div className="navigation-content container-fluid d-flex align-items-center justify-content-between">
+
+                <div className="header-cta">
+                    <a href='/account'><i class='bx bx-user' ></i>Create your account now! </a>
+                </div>
+
+                <div className="navigation-content  container-fluid d-flex align-items-center justify-content-between">
                     <ul className="nav">
                         <li className="nav-item">
                             <Link to='/' className="nav-link">home</Link>
