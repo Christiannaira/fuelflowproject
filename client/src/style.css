@@ -1370,7 +1370,7 @@ body {
         display: flex;
         flex-direction: column;
         background-color: #fff;
-        padding: 2rem;
+        padding: 5rem;
         transition: .45s ease;
     }
 
@@ -1398,6 +1398,18 @@ body {
         font-size: 2rem;
         display: inline-block;
         cursor: pointer;
+    }
+
+    .navigational-icons .icon {
+        display: none !important;
+    }
+
+    .hero-text-content {
+        z-index: 1000;
+    }
+
+    .profile {
+        position: relative;
     }
 
 }
