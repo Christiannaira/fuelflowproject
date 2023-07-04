@@ -23,21 +23,22 @@ const MainPage = () => {
       });
   }, []);
 
-  return (
-    <>
-      <Hero />
-      <Cta />
-      <Solution />
-      <Review />
-      <Benefits />
-      <Services />
-      <Partners />
-      <Faqs />
-      <Poster />
-      <Links />
-      <Chatbot />
-    </>
-  );
-};
+    return (
+        <>
+            <Hero />
+            <Cta />
+            <Solution />
+            <Review />
+            <Benefits />
+            <Services />
+            <Partners />
+            <Faqs />
+            <Poster />
+            <Links />
+            <Chatbot />
+        </>
+    )
+
+}
 
 export default MainPage;
