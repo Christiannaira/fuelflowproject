@@ -1225,84 +1225,39 @@ body {
 }
 
 
-
-/* .useraccount {
-    height: 120vh;
-    background: linear-gradient(rgba(0, 28, 48, .5), rgba(0, 28, 48, .5));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.useraccount-content-main {
-    position: relative;
-}
-
-.useraccount-content {}
-
-.user-profile h1 {
-    font-weight: 800;
-    padding-left: 30px;
-    padding-top: 10px;
-    display: flex;
-    align-items: center;
-    color: yellow;
-
-}
-
-.user-profile h1 i {
-    color: #fff;
-
-}
-
-.user-activities {
-    background-color: #001C30;
-    padding: 5rem;
-    border: 2px solid yellow;
-}
-
-.user {
-    margin-bottom: 3rem;
-}
-
-.user-activities h3 {
-    color: #fff;
-    font-weight: 600;
-}
-
-.user-activities p {
-    color: #ddd;
-    font-family: 'Open sans', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    padding: 1rem 0;
-}
-
-.profile-btn .btn {
-    background-color: yellow;
-    color: #001C30;
-    border: none;
-    outline: none;
-    padding: 10px 2rem;
-    border-radius: 50px;
-    margin-top: 1rem;
-}
-
-.profile-btn .btn:hover {
-    background-color: #fff;
-    color: #001C30;
-} */
-
-
-
-
-
-
-
-
 /*station section design*/
 
 .station {
-    height: 100vh;
+    position: relative;
+    ;
+}
+
+.station-content-main {
+    background-image: linear-gradient(rgba(0, 28, 48, .8), rgba(0, 28, 48, .8)), url('./assets/station-picture.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 150px 60px;
+    text-align: center;
+}
+
+.station-content-main h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.station-content-lists {
+
     background-color: #fff;
+    height: 200vh;
+
+}
+
+.station-station-lists {
+    padding-top: 2rem;
+}
+
+.station-station-lists .row {
+    margin: 1rem 0;
 }

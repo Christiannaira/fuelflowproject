@@ -90,7 +90,7 @@ function Solutions() {
                     <p>FuelFlow is a fuel delivery service that keeps your ride and business fleets rolling-without you having to step foot in a gas station. Instead, we bring the gas to you.</p>
 
                     <div className="solution-btn">
-                        <a href="#" className="btn btn-dark">VIEW ALL SOLUTIONS</a>
+                        <a href="/about" className="btn btn-dark">VIEW ALL SOLUTIONS</a>
                     </div>
 
                 </div>

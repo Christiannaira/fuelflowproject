@@ -52,7 +52,7 @@ function Hero() {
                             (user === null) ? "" : <h1>Hi,{user.name}!</h1>
                         }                         */}
             <h1><span>save time</span>, <br /> every time <br /> you refuel</h1>
-            <a href="#" className="btn btn-dark">order fuel</a>
+            <a href="/stations" className="btn btn-dark">order fuel</a>
 
           </div>
 

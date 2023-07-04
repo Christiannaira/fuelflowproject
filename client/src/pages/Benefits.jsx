@@ -52,7 +52,7 @@ function Benefits() {
 
                                                 <div className="icons-text">
                                                     <h3>Convenient</h3>
-                                                    <p>Busy? You don’t have to stop at gas station. We deliver it to you!</p>
+                                                    <p>Busy? You don't have to stop at gas station. We deliver it to you!</p>
                                                 </div>
 
 
@@ -106,7 +106,7 @@ function Benefits() {
                     </div>
 
                     <div className="benefits-btn">
-                        <a href="#" className="btn btn-dark">order now</a>
+                        <a href="/stations" className="btn btn-dark">order now</a>
 
                     </div>
 
