@@ -35,34 +35,39 @@ function Hero() {
   return (
     <>
 
-      <section className="hero" id="hero">
-        <div className="hero-content">
+      <div data-aos="fade-right">
 
-          {/*hero video section layout*/}
-          <div className="hero-video">
-            <video src={HeroVideo} autoPlay loop muted></video>
-          </div>
+        <section className="hero" id="hero">
+          <div className="hero-content">
+
+            {/*hero video section layout*/}
+            <div className="hero-video">
+              <video src={HeroVideo} autoPlay loop muted></video>
+            </div>
 
 
 
 
-          {/*hero text content section layout*/}
-          <div className="hero-text-content">
-            {/* {
+            {/*hero text content section layout*/}
+            <div className="hero-text-content">
+              {/* {
                             (user === null) ? "" : <h1>Hi,{user.name}!</h1>
                         }                         */}
-            <h1><span>save time</span>, <br /> every time <br /> you refuel</h1>
-            <a href="/stations" className="btn btn-dark">order fuel</a>
+              <h1><span>save time</span>, <br /> every time <br /> you refuel</h1>
+              <a href="/stations" className="btn btn-dark">order fuel</a>
+
+            </div>
+
+            {/*overlay dark colosr*/}
+            <div className="overlay">
+
+            </div>
 
           </div>
+        </section>
 
-          {/*overlay dark colosr*/}
-          <div className="overlay">
 
-          </div>
-
-        </div>
-      </section>
+      </div>
 
     </>
   )

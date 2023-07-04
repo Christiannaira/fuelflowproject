@@ -5,26 +5,32 @@ function Poster() {
     return (
         <>
 
-            <section className="poster" id="poster">
+            <div data-aos="zoom-in">
 
-                <div className="poster-content ">
+                <section className="poster" id="poster">
 
-                    <div className="poster-video">
-                        <video src={PosterVideo} autoPlay loop muted></video>
+                    <div className="poster-content ">
+
+                        <div className="poster-video">
+                            <video src={PosterVideo} autoPlay loop muted></video>
+                        </div>
+
+                        <div className="poster-text">
+                            <h1>Make Your Life Easier</h1>
+                        </div>
+
+                        {/*overlay dark color*/}
+                        <div className="overlay">
+
+                        </div>
+
                     </div>
 
-                    <div className="poster-text">
-                        <h1>Make Your Life Easier</h1>
-                    </div>
+                </section>
 
-                    {/*overlay dark color*/}
-                    <div className="overlay">
+            </div>
 
-                    </div>
 
-                </div>
-
-            </section>
 
         </>
     )
