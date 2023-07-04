@@ -19,6 +19,7 @@ function Navigation() {
         window.location.href = "/";
     };
 
+
     useEffect(() => {
 
         const icons = document.querySelector(".navigational-icons");
@@ -43,7 +44,8 @@ function Navigation() {
 
         }
 
-    }, [token])
+    }, [token]);
+
 
 
 
@@ -54,6 +56,7 @@ function Navigation() {
 
                 <div className="navigation-content  container-fluid d-flex align-items-center justify-content-between">
                     <ul className="nav">
+
                         <li className="nav-item">
                             <Link to='/' className={`nav-link ${(location.pathname === `/`) ? `fw-bold border-bottom border-dark border-2 ` : ``}`}>home</Link>
                         </li>
@@ -90,9 +93,19 @@ function Navigation() {
                             <Link to='/useraccount' className='profile'>
                                 <img src={ProfilePic} alt="" width={'35px'} style={{ display: 'inline-block' }} />
                             </Link>
+
                         )}
 
+                        <div className="hamburger-menu" onClick={() => {
 
+                            const nav = document.querySelector(".nav");
+
+                            nav.classList.toggle("open");
+
+
+                        }}>
+                            <i class='bx bx-menu' ></i>
+                        </div>
 
 
                     </div>

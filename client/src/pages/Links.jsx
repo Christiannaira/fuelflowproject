@@ -10,12 +10,12 @@ function Links() {
 
                         <div className="row text-white p-5">
 
-                            <div className="links-content-main col-md-3">
+                            <div className="links-content-main col-xl-3">
                                 <h1>Fuel<span>Flow</span></h1>
                                 <p>We are a leading diesel fuel supplier specializing in off-road diesel delivery, bulk fuel, and emergency diesel delivery services. With our innovative technology platform, we provide fast, reliable, and cost-effective fuel delivery solutions to businesses and individuals nationwide.</p>
                             </div>
 
-                            <div className="col-md-2">
+                            <div className="col-xl-2">
 
                                 <h3>Overview</h3>
 
@@ -29,7 +29,7 @@ function Links() {
 
                             </div>
 
-                            <div className="col-md-2">
+                            <div className="col-xl-2">
 
                                 <h3>Learn More</h3>
 
@@ -44,7 +44,7 @@ function Links() {
 
                             </div>
 
-                            <div className="col-md-2">
+                            <div className="col-xl-2">
 
                                 <h3>Support</h3>
 
@@ -59,7 +59,7 @@ function Links() {
 
                             </div>
 
-                            <div className="col-md-3 newsletter">
+                            <div className="col-xl-3 newsletter">
                                 <h3>Subscribe to Our Newsletter</h3>
                                 <span>Stay Up To Date On The Latest Things FuelFlow</span>
 

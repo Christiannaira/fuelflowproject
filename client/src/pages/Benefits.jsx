@@ -42,7 +42,7 @@ function Benefits() {
 
                                     <div className="row">
 
-                                        <div className="col-md-4">
+                                        <div className="col-lg-4">
 
                                             <div className="main-content">
 
@@ -60,7 +60,7 @@ function Benefits() {
 
                                         </div>
 
-                                        <div className="col-md-4">
+                                        <div className="col-lg-4">
 
                                             <div className="main-content">
 
@@ -77,7 +77,7 @@ function Benefits() {
 
                                         </div>
 
-                                        <div className="col-md-4">
+                                        <div className="col-lg-4">
 
                                             <div className="main-content">
 

@@ -113,7 +113,7 @@ function UserAccount() {
 
                     <div className="row ">
 
-                        <div className="col-md-2">
+                        <div className="col-lg-2">
 
                             <div className="row-content border">
                                 <h3>blogs</h3>
@@ -126,7 +126,7 @@ function UserAccount() {
 
                         </div>
 
-                        <div className="col-md-6  border">
+                        <div className="col-lg-6  border">
 
                             <div className="user-profile">
                                 <img src={UserProfile} alt="" width={'100px'} />
@@ -156,7 +156,7 @@ function UserAccount() {
 
                         </div>
 
-                        <div className="col-md-4 ">
+                        <div className="col-lg-4 ">
                             <div className="row-content border">
                                 <h3>About</h3>
 

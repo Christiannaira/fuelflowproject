@@ -20,7 +20,7 @@ function Solutions() {
                     <div className="solution-content-boxes container">
 
                         <div className="row">
-                            <div className="col-md-3 ">
+                            <div className="col-lg-3 ">
 
                                 <div className="col-contents focus">
 
@@ -36,7 +36,7 @@ function Solutions() {
                                 </div>
 
                             </div>
-                            <div className="col-md-3 ">
+                            <div className="col-lg-3 ">
 
                                 <div className="col-contents">
 
@@ -52,7 +52,7 @@ function Solutions() {
                                 </div>
 
                             </div>
-                            <div className="col-md-3 ">
+                            <div className="col-lg-3 ">
 
                                 <div className="col-contents">
 
@@ -67,7 +67,7 @@ function Solutions() {
                                 </div>
 
                             </div>
-                            <div className="col-md-3 ">
+                            <div className="col-lg-3 ">
 
                                 <div className="col-contents">
 
