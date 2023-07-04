@@ -1,6 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Navigation from './Navigation';
 import { Helmet } from 'react-helmet';
+import Logo from '../assets/logo2.png';
 
 function Layout() {
 
@@ -45,6 +46,7 @@ function Layout() {
                             <title>account</title>
                         ) : ""
                 }
+                <link rel="icon" href={Logo} />
             </Helmet>
             {/* header section layout */}
             <header>
