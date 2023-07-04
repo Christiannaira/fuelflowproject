@@ -1,7 +1,7 @@
 function Faqs() {
 
     return (
-        <>
+        <div data-aos="fade-right">
 
             <section className="faqs" id="faqs">
                 <div className="faqs-content container-fluid">
@@ -96,7 +96,7 @@ function Faqs() {
                 </div>
             </section>
 
-        </>
+        </div>
     )
 
 }

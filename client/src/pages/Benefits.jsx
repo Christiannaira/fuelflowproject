@@ -1,7 +1,7 @@
 function Benefits() {
 
     return (
-        <>
+        <div data-aos="fade-right">
 
             <section className="benefits" id="benefits">
                 <div className="benefits-content container-fluid">
@@ -32,17 +32,17 @@ function Benefits() {
                         </div>
 
 
-                        <div className="row ">
+                        <div className="row">
                             <div className="benefits-icons col-md-12">
 
 
 
 
-                                <div className="benefits-icons-content container">
+                                <div className="benefits-icons-content container" data-aos="flip-up">
 
                                     <div className="row">
 
-                                        <div className="col-lg-4">
+                                        <div className="col-md-4">
 
                                             <div className="main-content">
 
@@ -52,7 +52,7 @@ function Benefits() {
 
                                                 <div className="icons-text">
                                                     <h3>Convenient</h3>
-                                                    <p>Busy? You don't have to stop at gas station. We deliver it to you!</p>
+                                                    <p>Busy? You don’t have to stop at gas station. We deliver it to you!</p>
                                                 </div>
 
 
@@ -60,7 +60,7 @@ function Benefits() {
 
                                         </div>
 
-                                        <div className="col-lg-4">
+                                        <div className="col-md-4">
 
                                             <div className="main-content">
 
@@ -77,7 +77,7 @@ function Benefits() {
 
                                         </div>
 
-                                        <div className="col-lg-4">
+                                        <div className="col-md-4">
 
                                             <div className="main-content">
 
@@ -106,14 +106,14 @@ function Benefits() {
                     </div>
 
                     <div className="benefits-btn">
-                        <a href="/stations" className="btn btn-dark">order now</a>
+                        <a href="#" className="btn btn-dark">order now</a>
 
                     </div>
 
                 </div>
             </section>
 
-        </>
+        </div>
     )
 
 }

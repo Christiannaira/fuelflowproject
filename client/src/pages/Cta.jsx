@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+
 function Cta() {
 
     return (
-        <>
+        <div data-aos="fade-left">
 
             <section className="cta" id="cta">
 
@@ -19,7 +20,7 @@ function Cta() {
             </section>
 
 
-        </>
+        </div>
     )
 
 }

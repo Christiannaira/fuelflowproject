@@ -3,7 +3,7 @@
 function Solutions() {
 
     return (
-        <>
+        <div data-aos="fade-right">
 
             <section className="solution" id="solution">
 
@@ -17,10 +17,10 @@ function Solutions() {
 
                     {/*boxes*/}
 
-                    <div className="solution-content-boxes container">
+                    <div className="solution-content-boxes container" data-aos="fade-up">
 
                         <div className="row">
-                            <div className="col-lg-3 ">
+                            <div className="col-md-3 ">
 
                                 <div className="col-contents focus">
 
@@ -36,7 +36,7 @@ function Solutions() {
                                 </div>
 
                             </div>
-                            <div className="col-lg-3 ">
+                            <div className="col-md-3 ">
 
                                 <div className="col-contents">
 
@@ -52,7 +52,7 @@ function Solutions() {
                                 </div>
 
                             </div>
-                            <div className="col-lg-3 ">
+                            <div className="col-md-3 ">
 
                                 <div className="col-contents">
 
@@ -67,7 +67,7 @@ function Solutions() {
                                 </div>
 
                             </div>
-                            <div className="col-lg-3 ">
+                            <div className="col-md-3 ">
 
                                 <div className="col-contents">
 
@@ -90,14 +90,14 @@ function Solutions() {
                     <p>FuelFlow is a fuel delivery service that keeps your ride and business fleets rolling-without you having to step foot in a gas station. Instead, we bring the gas to you.</p>
 
                     <div className="solution-btn">
-                        <a href="/about" className="btn btn-dark">VIEW ALL SOLUTIONS</a>
+                        <a href="#" className="btn btn-dark">VIEW ALL SOLUTIONS</a>
                     </div>
 
                 </div>
 
             </section>
 
-        </>
+        </div>
     )
 
 }
