@@ -9,7 +9,7 @@ import Logo6 from '../assets/logo6.webp';
 function Partners() {
 
     return (
-        <>
+        <div data-aos="zoom-in">
 
             <section className="partners" id="partners">
                 <div className="partners-content ">
@@ -30,7 +30,7 @@ function Partners() {
                 </div>
             </section>
 
-        </>
+        </div>
     )
 
 }

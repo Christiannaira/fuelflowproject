@@ -43,7 +43,7 @@ function Services() {
 
 
     return (
-        <>
+        <div data-aos="fade-left">
 
             <section className="services" id="services">
                 <div className="services-content">
@@ -88,7 +88,7 @@ function Services() {
 
                             <div className="row align-items-center">
 
-                                <div className="col-lg-6 ">
+                                <div className="col-md-6 ">
                                     <h3>On-Road Delivery</h3>
                                     <p>Quit paying retail prices and wasting time at the gas stations waiting for your chance to fill up.</p>
 
@@ -113,7 +113,7 @@ function Services() {
 
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <img src={OnRoad} alt="" width={'100%'} />
 
@@ -129,7 +129,7 @@ function Services() {
 
                             <div className="row align-items-center">
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <h3>Off-Road Delivery</h3>
                                     <p>Off-road assets are often being used in remote locations, far from conventional fueling stations, making fuel delivery a critical component of any off-road operation.</p>
@@ -155,7 +155,7 @@ function Services() {
 
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <img src={OffRoad} alt="" width={'100%'} />
 
@@ -171,7 +171,7 @@ function Services() {
 
                             <div className="row align-items-center">
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
                                     <h3>Generator Delivery</h3>
                                     <p>Fuel delivery ensures that generators have a continuous supply of fuel, reducing the risk of downtime and power outages.
 
@@ -197,7 +197,7 @@ function Services() {
 
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <img src={Generator} alt="" width={'100%'} />
 
@@ -213,7 +213,7 @@ function Services() {
 
                             <div className="row align-items-center">
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <h3>Bulk Delivery</h3>
                                     <p>Bulk fuel delivery is the cost-effective and efficient solution for businesses and organizations that require large amounts of fuel on a regular basis.
@@ -239,7 +239,7 @@ function Services() {
 
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <img src={Bulk} alt="" width={'100%'} />
 
@@ -255,7 +255,7 @@ function Services() {
 
                             <div className="row align-items-center">
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <h3>Emergency Delivery</h3>
                                     <p>Where mobile fleets and equipment are often used to support events, concerts, and productions - our services serve an important role.
@@ -281,7 +281,7 @@ function Services() {
 
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <img src={Emergency} alt="" width={'100%'} />
 
@@ -296,7 +296,7 @@ function Services() {
 
                             <div className="row align-items-center">
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <h3>Mobile Delivery</h3>
                                     <p>
@@ -324,7 +324,7 @@ function Services() {
 
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <img src={Mobile} alt="" width={'100%'} />
 
@@ -339,7 +339,7 @@ function Services() {
 
                             <div className="row align-items-center">
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
                                     <h3>Reefer Delivery</h3>
                                     <p>
                                         Maintaining a steady and reliable supply of fuel is of the utmost importance to ensure the integrity of perishable cargo and precious goods.
@@ -364,7 +364,7 @@ function Services() {
 
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <img src={Reefer} alt="" width={'100%'} />
 
@@ -380,7 +380,7 @@ function Services() {
 
                             <div className="row align-items-center">
 
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <h3>On-Site Delivery</h3>
 
@@ -406,7 +406,7 @@ function Services() {
                                     </div>
 
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-md-6">
 
                                     <img src={OnSite} alt="" width={'100%'} />
 
@@ -422,7 +422,7 @@ function Services() {
                 </div>
             </section>
 
-        </>
+        </div>
     )
 
 }
