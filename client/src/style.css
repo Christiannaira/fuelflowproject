@@ -1229,7 +1229,7 @@ body {
 
 .station {
     position: relative;
-    ;
+
 }
 
 .station-content-main {
@@ -1250,7 +1250,7 @@ body {
 .station-content-lists {
 
     background-color: #fff;
-    height: 200vh;
+    height: 250vh;
 
 }
 
@@ -1260,4 +1260,65 @@ body {
 
 .station-station-lists .row {
     margin: 1rem 0;
+    background-color: #001C30;
+}
+
+.station-station-lists .row img {
+    width: 230px;
+}
+
+.station-title h2 {
+    color: yellow;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.station-ratings i {
+    color: orange;
+    margin: 0 3px;
+}
+
+.station-pricing h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.station-details p {
+    color: #ddd;
+    font-family: 'Open sans', sans-serif;
+}
+
+.station-details span {
+    color: #ddd;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+    display: inline-flex;
+    align-items: center;
+}
+
+.station-details span i {
+    margin-right: 5px;
+}
+
+.station-btn {
+    margin-top: 1rem;
+}
+
+.station-btn .btn {
+    background-color: yellow;
+    color: #001C30;
+    border-radius: 30px;
+    padding: 10px 2rem;
+}
+
+
+.station-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.station-station-lists .col-md-7 {
+    padding: 1rem;
 }
